@@ -42,12 +42,22 @@ button:not(:last-child){
     margin-left: 10px;
 }
 
+#down{
+    margin-left: 10px;
+}
+
 .messages{
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
     width: 80%;
     max-width: 460px;
+}
+
+p {
+    display: block;
+    margin: 0;
+    width: 100%;
 }
 
 @media (max-width: 440px){
